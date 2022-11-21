@@ -1,43 +1,77 @@
-﻿Console.WriteLine("--- Calendário Copa do Mundo 2022 ---");
+﻿string Letradigitada;
+Console.WriteLine("--- Calendário Copa do Mundo 2022 ---");
 Console.WriteLine("--- Descubra as datas dos jogos das seleções ---");
 
-Console.WriteLine("1 - Alemanha");
-Console.WriteLine("2 - Arábia Saudita");
-Console.WriteLine("3 - Argentina");
-Console.WriteLine("4 - Austrália");
-Console.WriteLine("5 - Bélgica");
-Console.WriteLine("6 - Brasil");
-Console.WriteLine("7 - Camarões");
-Console.WriteLine("8 - Canadá");
-Console.WriteLine("9 - Catar");
-Console.WriteLine("10 - Coreia do Sul");
-Console.WriteLine("11 - Costa Rica");
-Console.WriteLine("12 - Croácia");
-Console.WriteLine("13 - Dinamarca");
-Console.WriteLine("14 - Equador");
-Console.WriteLine("15 - Espanha");
-Console.WriteLine("16 - Estados Unidos");
-Console.WriteLine("17 - França");
-Console.WriteLine("18 - Gana");
-Console.WriteLine("19 - Holanda");
-Console.WriteLine("20 - Inglaterra");
-Console.WriteLine("21 - Irã");
-Console.WriteLine("22 - Japão");
-Console.WriteLine("23 - Marrocos");
-Console.WriteLine("24 - México");
-Console.WriteLine("25 - País de Gales");
-Console.WriteLine("26 - Polônia");
-Console.WriteLine("27 - Portugal");
-Console.WriteLine("28 - Senegal");
-Console.WriteLine("29 - Sérvia");
-Console.WriteLine("30 - Suíça");
-Console.WriteLine("31 - Tunísia");
-Console.WriteLine("32 - Uruguai");
+Console.WriteLine("");
+Console.WriteLine("-- Grupo A --");
+Console.WriteLine("1-Países Baixos");
+Console.WriteLine("2-Equador");
+Console.WriteLine("3-Senegal");
+Console.WriteLine("4-Qatar");
+Console.WriteLine("");
 
-Console.Write("Digite o número conrrespondente ao país:");
+Console.WriteLine("-- Grupo B --");
+Console.WriteLine("1-Inglaterra");
+Console.WriteLine("3-País de Gales");
+Console.WriteLine("4-Estados Unidos da América");
+Console.WriteLine("5-Irã");
+Console.WriteLine("");
+
+Console.WriteLine("-- Grupo C --");
+Console.WriteLine("1-Argentina");
+Console.WriteLine("2-México");
+Console.WriteLine("3-Polónia");
+Console.WriteLine("4-Arábia Saudita");
+Console.WriteLine("");
+
+Console.WriteLine("-- Grupo D --");
+Console.WriteLine("1-Austrália");
+Console.WriteLine("2-Dinamarca");
+Console.WriteLine("3-França");
+Console.WriteLine("4-Tunísia");
+Console.WriteLine("");
+
+Console.WriteLine("-- Grupo E-- ");
+Console.WriteLine("1-Costa Rica");
+Console.WriteLine("2-Alemanha");
+Console.WriteLine("3-Japão");
+Console.WriteLine("4-Espanha");
+Console.WriteLine("");
+
+Console.WriteLine("-- Grupo F --");
+Console.WriteLine("1-Bélgica");
+Console.WriteLine("2-Canadá");
+Console.WriteLine("3-Croácia");
+Console.WriteLine("4-Marrocos");
+Console.WriteLine("");
+
+Console.WriteLine("-- Grupo G --");
+Console.WriteLine("1-Brasil");
+Console.WriteLine("2-Camarões");
+Console.WriteLine("3-Sérvia");
+Console.WriteLine("4-Suíça");
+Console.WriteLine("");
+
+Console.WriteLine("-- Grupo H --");
+Console.WriteLine("1-Gana");
+Console.WriteLine("2-Portugal");
+Console.WriteLine("3-República da Coreia");
+Console.WriteLine("4-Uruguai");
+Console.WriteLine("");
+
+
+Console.Write("Digite a letra correspondente ao grupo e o número da equipe:");
+Letradigitada = Console.ReadLine()!.ToUpper();
 int Numerodigitado = Convert.ToInt16 (Console.ReadLine()!);
 
-if (Numerodigitado == 1)
+
+
+
+
+
+
+
+if (Letradigitada.Contains("E") && Numerodigitado == 2 )
 {
     Console.WriteLine(" Alemanha x Japão - Quarta - 23/11/2022 -10:00 hrs");
     Console.WriteLine(" Espanha x Alemanha - Domingo - 27/11/2022 - 16:00 hrs");
@@ -45,7 +79,7 @@ if (Numerodigitado == 1)
    
 }
 
-if (Numerodigitado == 2)
+if (Letradigitada.Contains("C") && Numerodigitado == 4 )
 {
     Console.WriteLine(" Argentina x Arábia Saudita - Terça - 22/11/2022 - 7:00 hrs");
     Console.WriteLine(" Polônia x Arábia Saudita - Sábado - 26/11/2022 - 10:00 hrs");
@@ -53,7 +87,7 @@ if (Numerodigitado == 2)
    
 }
 
-if (Numerodigitado == 3)
+if (Letradigitada.Contains("C") && Numerodigitado == 1 )
 {
     Console.WriteLine(" Argentina x Arábia Saudita - Terça - 22/11/2022 - 7:00 hrs");
     Console.WriteLine(" Argentina x México - Sábado - 26/11/2022 - 16:00 hrs");
@@ -62,7 +96,7 @@ if (Numerodigitado == 3)
 }
 
 
-if (Numerodigitado == 9)
+if (Letradigitada.Contains("A") && Numerodigitado == 4)
 {
     Console.WriteLine(" Catar x Ecuador - Domingo - 20/11/2022 -13:00 hrs");
     Console.WriteLine(" Catar x Senegal - Sexta - 25/11/2022 - 10:00 hrs");
