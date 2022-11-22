@@ -4,7 +4,7 @@ Console.WriteLine("--- Descubra as datas dos jogos das seleções ---");
 
 Console.WriteLine("");
 Console.WriteLine("-- Grupo A --");
-Console.WriteLine("1-Países Baixos");
+Console.WriteLine("1-Holanda");
 Console.WriteLine("2-Equador");
 Console.WriteLine("3-Senegal");
 Console.WriteLine("4-Qatar");
@@ -60,48 +60,261 @@ Console.WriteLine("4-Uruguai");
 Console.WriteLine("");
 
 
-Console.Write("Digite a letra correspondente ao grupo e o número da equipe:");
+Console.Write("Digite a letra correspondente ao grupo:");
 Letradigitada = Console.ReadLine()!.ToUpper();
+
+Console.Write("Agora Digite o número da equipe: ");
 int Numerodigitado = Convert.ToInt16 (Console.ReadLine()!);
 
+Console.WriteLine("");
 
-
-
-
-
-
-
-if (Letradigitada.Contains("E") && Numerodigitado == 2 )
+if (Letradigitada.Contains("A") && Numerodigitado == 1)
 {
-    Console.WriteLine(" Alemanha x Japão - Quarta - 23/11/2022 -10:00 hrs");
-    Console.WriteLine(" Espanha x Alemanha - Domingo - 27/11/2022 - 16:00 hrs");
-    Console.WriteLine(" Costa Rica x Alemanha - Quinta - 01/12/2022 - 16:00 hrs");
+     Console.WriteLine(" Equipe Selecionada: Holanda");
+     Console.WriteLine("");
+    Console.WriteLine(" Senegal x Holanda - Segunda - 21/11/2022 -13:00 hrs");
+    Console.WriteLine(" Holanda x Equador - Sexta - 25/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Holanda x Quatar - Terça - 29/11/2022 - 12:00 hrs");
    
 }
 
-if (Letradigitada.Contains("C") && Numerodigitado == 4 )
+if (Letradigitada.Contains("A") && Numerodigitado == 2)
 {
-    Console.WriteLine(" Argentina x Arábia Saudita - Terça - 22/11/2022 - 7:00 hrs");
-    Console.WriteLine(" Polônia x Arábia Saudita - Sábado - 26/11/2022 - 10:00 hrs");
-    Console.WriteLine(" Arábia Saudita x México - Quarta - 30/11/2022 - 16:00 hrs");
+     Console.WriteLine(" Equipe Selecionada: Equador");
+     Console.WriteLine("");
+    Console.WriteLine(" Qatar x Equador - Domingo - 20/11/2022 -13:00 hrs");
+    Console.WriteLine(" Holanda x Equador - Sexta - 25/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Equador x Senegal - Terça - 29/11/2022 - 12:00 hrs");
    
 }
 
-if (Letradigitada.Contains("C") && Numerodigitado == 1 )
+if (Letradigitada.Contains("A") && Numerodigitado == 3)
 {
+     Console.WriteLine(" Equipe Selecionada: Senegal");
+     Console.WriteLine("");
+    Console.WriteLine(" Senegal x Holanda - Segunda - 21/11/2022 -13:00 hrs");
+    Console.WriteLine(" Qatar x Senegal - Sexta - 25/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Equador x Senegal - Terça - 29/11/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("A") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Qatar");
+     Console.WriteLine("");
+    Console.WriteLine(" Qatar x Equador - Domingo - 20/11/2022 -13:00 hrs");
+    Console.WriteLine(" Qatar x Senegal - Sexta - 25/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Holanda x Qatar - Terça - 29/11/2022 - 12:00 hrs");
+   
+}
+
+
+if (Letradigitada.Contains("B") && Numerodigitado == 1)
+{
+     Console.WriteLine(" Equipe Selecionada: Inglaterra");
+     Console.WriteLine("");
+    Console.WriteLine(" Inglaterra x Irã - Segunda - 21/11/2022 -16:00 hrs");
+    Console.WriteLine(" Inglaterra x Estados Unidos da América - Sexta - 25/11/2022 - 16:00 hrs");
+    Console.WriteLine(" País de Gales x Inglaterra - Terça - 29/11/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("B") && Numerodigitado == 2)
+{
+     Console.WriteLine(" Equipe Selecionada: País de Gales");
+     Console.WriteLine("");
+    Console.WriteLine(" Estados Unidos da América x País de Gales - Domingo - 20/11/2022 - 21:00 hrs");
+    Console.WriteLine(" País de Gales x Irã - Sexta - 25/11/2022 - 07:00 hrs");
+    Console.WriteLine(" País de Gales x Inglaterra - Terça - 29/11/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("B") && Numerodigitado == 3)
+{
+     Console.WriteLine(" Equipe Selecionada: Estados Unidos da América");
+     Console.WriteLine("");
+    Console.WriteLine(" Estados Unidos da América x País de Gales - Domingo - 20/11/2022 - 21:00 hrs");
+    Console.WriteLine(" Inglaterra x Estados Unidos da América - Sexta - 25/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Irã x Estados Unidos da América - Terça - 29/11/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("B") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Irã");
+     Console.WriteLine("");
+    Console.WriteLine(" Inglaterra x Irã - Segunda - 21/11/2022 -16:00 hrs");
+    Console.WriteLine(" País de Gales x Irã - Sexta - 25/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Irã x Estados Unidos da América - Terça - 29/11/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("C") && Numerodigitado == 1)
+{
+     Console.WriteLine(" Equipe Selecionada: Argentina");
+     Console.WriteLine("");
     Console.WriteLine(" Argentina x Arábia Saudita - Terça - 22/11/2022 - 7:00 hrs");
     Console.WriteLine(" Argentina x México - Sábado - 26/11/2022 - 16:00 hrs");
     Console.WriteLine(" Polônia x Argentina - Quarta - 30/11/2022 - 16:00 hrs");
    
 }
 
-
-if (Letradigitada.Contains("A") && Numerodigitado == 4)
+if (Letradigitada.Contains("C") && Numerodigitado == 2)
 {
-    Console.WriteLine(" Catar x Ecuador - Domingo - 20/11/2022 -13:00 hrs");
-    Console.WriteLine(" Catar x Senegal - Sexta - 25/11/2022 - 10:00 hrs");
-    Console.WriteLine(" Holanda x Catar - Terça - 29/11/2022 - 12:00 hrs");
+     Console.WriteLine(" Equipe Selecionada: México");
+     Console.WriteLine("");
+    Console.WriteLine(" México x Polónia - Terça - 22/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Argentina x México - Sábado - 26/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Arábia Saudita x México - Quarta - 30/11/2022 - 16:00 hrs");
    
 }
+
+if (Letradigitada.Contains("C") && Numerodigitado == 3)
+{
+     Console.WriteLine(" Polónia");
+     Console.WriteLine("");
+    Console.WriteLine(" México x Polónia - Terça - 22/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Polónia x Arábia Saudita - Sábado - 26/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Polônia x Argentina - Quarta - 30/11/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("C") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Arábia Saudita");
+     Console.WriteLine("");
+    Console.WriteLine(" Argentina x Arábia Saudita - Terça - 22/11/2022 - 7:00 hrs");
+    Console.WriteLine(" Polónia x Arábia Saudita - Sábado - 26/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Arábia Saudita x México - Quarta - 30/11/2022 - 16:00 hrs");
+   
+}
+
+  
+if (Letradigitada.Contains("D") && Numerodigitado == 1)
+{
+     Console.WriteLine(" Equipe Selecionada: Austrália");
+     Console.WriteLine("");
+    Console.WriteLine(" França x Austrália - Terça - 22/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Tunísia x Austrália - Sábado - 26/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Austrália x Dinamarca - Quarta - 30/11/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("D") && Numerodigitado == 2)
+{
+     Console.WriteLine(" Equipe Selecionada: Dinamarca");
+     Console.WriteLine("");
+    Console.WriteLine(" Dinamarca x Tunísia - Terça - 22/11/2022 - 10:00 hrs");
+    Console.WriteLine(" França x Dinamarca - Sábado - 26/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Austrália x Dinamarca - Quarta - 30/11/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("D") && Numerodigitado == 3)
+{
+     Console.WriteLine(" França");
+     Console.WriteLine("");
+    Console.WriteLine(" França x Austrália - Terça - 22/11/2022 - 16:00 hrs");
+    Console.WriteLine(" França x Dinamarca - Sábado - 26/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Tunísia x França - Quarta - 30/11/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("D") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Tunísia");
+     Console.WriteLine("");
+    Console.WriteLine(" Dinamarca x Tunísia - Terça - 22/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Tunísia x Austrália - Sábado - 26/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Tunísia x França - Quarta - 30/11/2022 - 12:00 hrs");
+   
+}
+
+
+if (Letradigitada.Contains("E") && Numerodigitado == 1)
+{
+     Console.WriteLine(" Equipe Selecionada: Costa Rica");
+     Console.WriteLine("");
+    Console.WriteLine(" Espanha x Costa Rica - Qaurta - 23/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Japão x Costa Rica - Domingo - 27/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Costa Rica x Alemanha - Quarta - 01/12/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("E") && Numerodigitado == 2)
+{
+     Console.WriteLine(" Equipe Selecionada: Alemanha");
+     Console.WriteLine("");
+    Console.WriteLine(" Alemanha x Japão - Quarta - 23/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Espanha x Alemanha - Domingo - 27/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Costa Rica x Alemanha - Quarta - 01/12/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("E") && Numerodigitado == 3)
+{
+     Console.WriteLine(" Japão");
+     Console.WriteLine("");
+    Console.WriteLine(" Alemanha x Japão - Quarta - 23/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Japão x Costa Rica - Domingo - 27/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Japão x Espanha - Quarta - 01/12/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("E") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Espanha");
+     Console.WriteLine("");
+    Console.WriteLine(" Espanha x Costa Rica - Quarta - 23/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Espanha x Alemanha - Domingo - 27/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Japão x Espanha - Quarta - 01/12/2022 - 16:00 hrs");
+   
+}
+
+  
+if (Letradigitada.Contains("F") && Numerodigitado == 1)
+{
+     Console.WriteLine(" Equipe Selecionada: Bélgica");
+     Console.WriteLine("");
+    Console.WriteLine(" Bélgica x Canadá - Quarta - 23/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Bélgica x Marrocos - Domingo - 27/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Croácia x Bélgica - Quarta - 01/12/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("F") && Numerodigitado == 2)
+{
+     Console.WriteLine(" Equipe Selecionada: Canadá");
+     Console.WriteLine("");
+    Console.WriteLine(" Bélgica x Canadá - Quarta - 23/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Croácia x Canadá - Domingo - 27/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Canadá x Marrocos - Quarta - 01/12/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("F") && Numerodigitado == 3)
+{
+     Console.WriteLine(" Croácia");
+     Console.WriteLine("");
+    Console.WriteLine(" Marrocos x Croácia - Quarta - 23/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Croácia x Canadá - Domingo - 27/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Croácia x Bélgica - Quarta - 01/12/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("F") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Marrocos");
+     Console.WriteLine("");
+    Console.WriteLine(" Marrocos x Croácia - Quarta - 23/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Bélgica x Marrocos - Domingo - 27/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Canadá x Marrocos - Quarta - 01/12/2022 - 12:00 hrs");
+   
+}  
+
+
+
+
+
 
 
