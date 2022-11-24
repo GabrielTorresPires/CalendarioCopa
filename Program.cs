@@ -312,9 +312,86 @@ if (Letradigitada.Contains("F") && Numerodigitado == 4)
    
 }  
 
+if (Letradigitada.Contains("G") && Numerodigitado == 1)
+{
+     Console.WriteLine(" Equipe Selecionada: Brasil");
+     Console.WriteLine("");
+    Console.WriteLine(" Brasil x Sérvia - Quinta - 24/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Brasil x Suíça - Segunda - 28/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Camarões x Brasil - Sexta - 02/12/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("G") && Numerodigitado == 2)
+{
+     Console.WriteLine(" Equipe Selecionada: Camarões");
+     Console.WriteLine("");
+    Console.WriteLine(" Suíça x Camarões - Quinta - 24/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Camarões x Sérvia - Segunda - 28/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Camarões x Brasil - Sexta - 02/12/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("G") && Numerodigitado == 3)
+{
+     Console.WriteLine(" Suíça");
+     Console.WriteLine("");
+    Console.WriteLine(" Suíça x Camarões - Quinta - 24/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Brasil x Suíça - Segunda - 28/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Sérvia x Suíça - Sexta - 02/12/2022 - 16:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("G") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Sérvia");
+     Console.WriteLine("");
+    Console.WriteLine(" Brasil x Sérvia - Quinta - 24/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Camarões x Sérvia - Segunda - 28/11/2022 - 07:00 hrs");
+    Console.WriteLine(" Sérvia x Suíça - Sexta - 02/12/2022 - 16:00 hrs");
+   
+}  
 
 
+if (Letradigitada.Contains("H") && Numerodigitado == 1)
+{
+     Console.WriteLine(" Equipe Selecionada: Coréia do Sul");
+     Console.WriteLine("");
+    Console.WriteLine(" Uruguai x Coréia do Sul - Quinta - 24/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Portugal x Uruguai - Segunda - 28/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Gana x Uruguai - Sexta - 02/12/2022 - 12:00 hrs");
+   
+}
 
+if (Letradigitada.Contains("H") && Numerodigitado == 2)
+{
+     Console.WriteLine(" Equipe Selecionada: Gana");
+     Console.WriteLine("");
+    Console.WriteLine(" Portugal x Gana - Quinta - 24/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Coréia do Sul x Gana - Segunda - 28/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Gana x Uruguai - Sexta - 02/12/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("H") && Numerodigitado == 3)
+{
+     Console.WriteLine(" Portugal");
+     Console.WriteLine("");
+    Console.WriteLine(" Portugal x Gana - Quinta - 24/11/2022 - 13:00 hrs");
+    Console.WriteLine(" Portugal x Uruguai - Segunda - 28/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Coréia do Sul x Portugal - Sexta - 02/12/2022 - 12:00 hrs");
+   
+}
+
+if (Letradigitada.Contains("H") && Numerodigitado == 4)
+{
+     Console.WriteLine(" Equipe Selecionada: Uruguai");
+     Console.WriteLine("");
+    Console.WriteLine(" Uruguai x Coréia do Sul - Quinta - 24/11/2022 - 10:00 hrs");
+    Console.WriteLine(" Portugal x Uruguai - Segunda - 28/11/2022 - 16:00 hrs");
+    Console.WriteLine(" Gana x Uruguai - Sexta - 02/12/2022 - 12:00 hrs");
+   
+}  
 
 
 
