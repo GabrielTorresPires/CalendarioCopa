@@ -1,4 +1,8 @@
-﻿
+﻿string tecla = "";
+while(tecla != "S")
+{
+    Console.Clear();
+
 string Letradigitada;
 
 Console.WriteLine("--- Calendário Copa do Mundo 2022 ---");
@@ -71,10 +75,12 @@ Console.WriteLine("4-Final");
 Console.WriteLine();
 
 
-Console.Write("Digite a letra correspondente ao grupo...:");
+Console.Write("Digite a letra correspondente a opção...:");
 Letradigitada = Console.ReadLine()!.ToUpper();
 
-Console.Write("Agora Digite o número da equipe: ");
+
+
+Console.Write("Agora Digite o número correspodente a opção...: ");
 int Numerodigitado = Convert.ToInt16 (Console.ReadLine()!);
 Console.WriteLine();
 
@@ -455,5 +461,10 @@ if (Letradigitada.Contains("I") && Numerodigitado == 4)
     Console.WriteLine();
 }
 
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine("Digite S para sair, qualquer outra tecla para continuar: ");
+    tecla = Console.ReadLine()!;
+    Console.ResetColor();
+}
 
 
