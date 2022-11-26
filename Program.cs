@@ -455,7 +455,7 @@ if (Letradigitada.Contains("I") && Numerodigitado == 3)
 
 if (Letradigitada.Contains("I") && Numerodigitado == 4)
 {
-    Console.WriteLine(" Opção Selecionada..: Semifinais");
+    Console.WriteLine(" Opção Selecionada..: Final");
     Console.WriteLine();
     Console.WriteLine(" Domingo - 18/12/2022 - 12:00 hrs");
     Console.WriteLine();
