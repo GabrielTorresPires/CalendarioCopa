@@ -7,9 +7,10 @@ string Letradigitada;
 while (tecla != "S")
 {
 
-    Console.WriteLine("---------------- Calendário Copa do Mundo 2022 ------------------");
-    Console.WriteLine("----------- Descubra as datas dos jogos das seleções ------------");
- 
+    Console.WriteLine("--- Calendário Copa do Mundo 2022 ---");
+    Console.WriteLine("--- Descubra as datas dos jogos das seleções ---");
+    Console.WriteLine("--- Digite a tecla * S * PARA sAIR ---");
+
     Console.WriteLine();
     Console.WriteLine("-- Grupo (A) --");
     Console.WriteLine("1-Holanda");
@@ -461,38 +462,11 @@ while (tecla != "S")
     }
 
     Console.ForegroundColor = ConsoleColor.Blue;
-    Console.WriteLine("APERTE *S* PARA ACESSAR O SIMULADOR DAS ELIMINATÓRIAS");
-    Console.ResetColor();
-    tecla = Console.ReadLine()!.ToUpper();
-
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("OU APERTE QUALQUER OUTRA TECLA PARA RETORNAR AO CALENDÁRIO");
+    Console.Write("Digite S para sair ou qualquer outra tecla para continuar: ");
     Console.ResetColor();
     tecla = Console.ReadLine()!.ToUpper();
 }
 
-
-
-string semifinalista1, semifinalista2, semifinalista3, semifanalisata4;
-string finalista1, finalista2;
-
-Console.WriteLine("-------------------------------");
-Console.WriteLine("--- Simulador Eliminatórias ---");
-Console.WriteLine("-------------------------------");
-
-Console.Write("Digite o nome de uma equipe para o PRIMEIRO JOGO da Semi Final:  ");
-Console.ForegroundColor = ConsoleColor.Blue;
-semifinalista1 = Console.ReadLine()!;
-Console.ResetColor();
-
-
-Console.Write($"Digite o nome da equipe que enfretará a equipe {semifinalista1} no PRIMEIRO JOGO da Semi Final:  ");
-Console.ForegroundColor = ConsoleColor.Green;
-semifinalista2 = Console.ReadLine()!;
-Console.ResetColor();
-
-Console.WriteLine("Primeira Semifinal Definida!");
-Console.WriteLine($"{semifinalista1} x {semifinalista2}");
 
 
 

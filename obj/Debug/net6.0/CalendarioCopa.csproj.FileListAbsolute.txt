@@ -1,0 +1,15 @@
+C:\Users\Lab0-00\Documents\CalendarioCopa\bin\Debug\net6.0\CalendarioCopa.exe
+C:\Users\Lab0-00\Documents\CalendarioCopa\bin\Debug\net6.0\CalendarioCopa.deps.json
+C:\Users\Lab0-00\Documents\CalendarioCopa\bin\Debug\net6.0\CalendarioCopa.runtimeconfig.json
+C:\Users\Lab0-00\Documents\CalendarioCopa\bin\Debug\net6.0\CalendarioCopa.dll
+C:\Users\Lab0-00\Documents\CalendarioCopa\bin\Debug\net6.0\ref\CalendarioCopa.dll
+C:\Users\Lab0-00\Documents\CalendarioCopa\bin\Debug\net6.0\CalendarioCopa.pdb
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.csproj.AssemblyReference.cache
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.AssemblyInfoInputs.cache
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.AssemblyInfo.cs
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.csproj.CoreCompileInputs.cache
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.dll
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\ref\CalendarioCopa.dll
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.pdb
+C:\Users\Lab0-00\Documents\CalendarioCopa\obj\Debug\net6.0\CalendarioCopa.genruntimeconfig.cache
